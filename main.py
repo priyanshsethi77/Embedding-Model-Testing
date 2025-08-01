@@ -11,37 +11,59 @@ import fitz  # PyMuPDF
 import os
 import json
 
-# Path to documents
+# Create output folders
 doc_folder = "./pdf_documents"
+img_output_folder = "./extracted_images"
+os.makedirs(img_output_folder, exist_ok=True)
+
 output = []
 doc_files = sorted([f for f in os.listdir(doc_folder) if f.endswith(".pdf")])
-
-id_counter = 1  # start id from 1
+id_counter = 1  # Start id from 1
 
 for doc_file in doc_files:
     doc_path = os.path.join(doc_folder, doc_file)
     doc = fitz.open(doc_path)
 
     text_accumulator = []
+    images = []
+    tables = []  # Placeholder if you want to add table extraction later
 
-    for page in doc:
+    for page_num, page in enumerate(doc, start=1):
+        # Extract text
         text = page.get_text()
-        if text.strip():  # skip empty pages
+        if text.strip():
             text_accumulator.append(text.strip())
+
+        # Extract images
+        image_list = page.get_images(full=True)
+        for img_index, img in enumerate(image_list):
+            xref = img[0]
+            base_image = doc.extract_image(xref)
+            image_bytes = base_image["image"]
+            image_ext = base_image["ext"]
+            image_filename = f"{os.path.splitext(doc_file)[0]}_page{page_num}_img{img_index + 1}.{image_ext}"
+            image_path = os.path.join(img_output_folder, image_filename)
+
+            with open(image_path, "wb") as img_file:
+                img_file.write(image_bytes)
+
+            images.append(image_filename)
 
     full_text = " ".join(text_accumulator).replace("\n", " ")
 
     output.append({
         "id": id_counter,
-        "text": full_text
+        "file_name": doc_file,
+        "text": full_text,
+        "tables": tables,       # You can fill this using pdfplumber or camelot later
+        "images": images        # Image filenames relative to extracted_images folder
     })
     id_counter += 1
 
 # Save to JSON file
-
 with open("output_documents.json", "w", encoding="utf-8") as f:
     json.dump(output, f, ensure_ascii=False, indent=2)
-
+    
 query = "What are qubits and how do they function?"
 
 # Test each model
