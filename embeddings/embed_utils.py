@@ -4,7 +4,7 @@ import numpy as np
 
 def load_model(model_name):
     tokenizer = AutoTokenizer.from_pretrained(model_name,trust_remote_code=True)
-    model = AutoModel.from_pretrained(model_name,trust_remote_code=True).eval()
+    model = AutoModel.from_pretrained(model_name,low_cpu_mem_usage=True,trust_remote_code=True).eval()
     return tokenizer, model
 
 # def compute_embedding(text, tokenizer, model):
@@ -17,10 +17,19 @@ def load_model(model_name):
 #     return outputs.last_hidden_state.mean(dim=1)[0].numpy()
 
 def compute_embedding(text, tokenizer, model):
+
+    
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     
     # Tokenize input and move to correct device
-    inputs = tokenizer(text, return_tensors="pt", padding=True, truncation=True).to(device)
+    inputs = tokenizer(
+        text,
+        return_tensors="pt",
+        padding=True,
+        truncation=True,
+        max_length=512  # explicitly set max length
+    ).to(device)
+
     model = model.to(device)
     model.eval()
 

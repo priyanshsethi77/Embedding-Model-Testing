@@ -2,7 +2,7 @@ from embeddings.embed_utils import cosine_similarity
 from mongo.mongo_utils import get_all_documents
 import numpy as np
 
-def search(query, embed_fn, top_k=5):
+def search(query, embed_fn, top_k=6):
     query_vec = embed_fn(query)
     docs = get_all_documents()
     results = []

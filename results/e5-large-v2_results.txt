@@ -1,0 +1,40 @@
+Model: e5-large-v2 (intfloat/e5-large-v2)
+
+Query 1: Which 19th-century metallic structure faced artistic backlash during its initial years despite now being celebrated globally?
+0.9286 | 240809869v5.pdf | Docling Technical Report Version 1.0 Christoph Auer Maksym Lysak Ahmed Nassar Michele Dolfi Nikolaos Livathinos ...
+
+Query 2: What is the widely accepted identity of the person depicted, and what is the reason behind the alternative name given to the portrait?
+0.9303 | document_3.pdf | The Mona Lisa, also known as La Gioconda, stands as one of the most recognizable ...
+
+Query 3: Which components in the system are responsible for semantic segmentation of document content, and how are their outputs standardized for cross-model compatibility?
+0.9434 | 240809869v5.pdf | Docling Technical Report Version 1.0 Christoph Auer Maksym Lysak Ahmed Nassar Michele Dolfi Nikolaos Livathinos ...
+
+Query 4: What was Emperor Qin Shi Huang’s strategy for defending a unified territory against outside aggression?
+0.9377 | document_5.pdf | The Great Wall of China is one of the most iconic and enduring architectural marvels ...
+
+Query 5: What open-source tool allows developers to implement numerical simulations and scientific analysis with extensive third-party package support?
+0.9436 | 240809869v5.pdf | Docling Technical Report Version 1.0 Christoph Auer Maksym Lysak Ahmed Nassar Michele Dolfi Nikolaos Livathinos ...
+
+Query 6: Which Renaissance technique contributed to the subtle transitions and emotional ambiguity in the subject’s face?
+0.9367 | document_3.pdf | The Mona Lisa, also known as La Gioconda, stands as one of the most recognizable ...
+
+Query 7: What methods or models are employed to detect non-linear content flows, such as tables or multi-column layouts, in complex page formats?
+0.9340 | 240809869v5.pdf | Docling Technical Report Version 1.0 Christoph Auer Maksym Lysak Ahmed Nassar Michele Dolfi Nikolaos Livathinos ...
+
+Query 8: How do novel physical properties in subatomic systems enable massively parallel problem solving in next-generation processors?
+0.9213 | 240809869v5.pdf | Docling Technical Report Version 1.0 Christoph Auer Maksym Lysak Ahmed Nassar Michele Dolfi Nikolaos Livathinos ...
+
+Query 9: What towering creation was initially built to commemorate a major revolution’s centennial through a world exhibition?
+0.9481 | document_1.pdf | The Eiffel Tower, known in French as La Tour Eiffel, is one of the most ...
+
+Query 10: Which beginner-friendly coding language has gained traction in educational curricula due to its human-readable syntax?
+0.9354 | 240809869v5.pdf | Docling Technical Report Version 1.0 Christoph Auer Maksym Lysak Ahmed Nassar Michele Dolfi Nikolaos Livathinos ...
+
+Query 11: Which ancient structure in East Asia relied on smoke and fire to transmit military messages over long distances?
+0.9324 | document_5.pdf | The Great Wall of China is one of the most iconic and enduring architectural marvels ...
+
+Query 12: What scientific phenomenon allows information units to remain linked across long distances, enhancing computational accuracy?
+0.9359 | 240809869v5.pdf | Docling Technical Report Version 1.0 Christoph Auer Maksym Lysak Ahmed Nassar Michele Dolfi Nikolaos Livathinos ...
+
+
+⏱ Total Time Taken: 14.75 seconds

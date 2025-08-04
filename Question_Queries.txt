@@ -1,0 +1,171 @@
+240809869v5.pdf
+
+1. Which AI-driven system was designed to interpret layout and structure in digital documents, and how does it differentiate between text blocks and embedded visual components?
+
+2. Describe the modular architecture utilized in the PDF preprocessing pipeline and explain how it supports various downstream document understanding tasks.
+
+3. What methods or models are employed to detect non-linear content flows, such as tables or multi-column layouts, in complex page formats?
+
+4. Which components in the system are responsible for semantic segmentation of document content, and how are their outputs standardized for cross-model compatibility?
+
+5. How does the toolkit handle multilingual documents or diverse encodings, especially when extracting structured data from scanned archives?
+
+document_1.pdf
+
+1. Which 19th-century metallic structure faced artistic backlash during its initial years despite now being celebrated globally?
+
+2. What towering creation was initially built to commemorate a major revolution’s centennial through a world exhibition?
+
+3. Which monument, once ridiculed, now captivates millions with nightly luminary displays and city-wide vistas?
+
+4. Which iron framework, named after an engineer but not designed by him, remained the tallest man-made structure until 1930?
+
+5. Identify the architectural landmark that transitioned from controversial eyesore to beloved tourist destination in Europe.
+
+
+document_2.pdf
+
+1. How do novel physical properties in subatomic systems enable massively parallel problem solving in next-generation processors?
+
+2. Why might traditional encryption approaches become ineffective due to advancements in non-classical computational models?
+
+3. What scientific phenomenon allows information units to remain linked across long distances, enhancing computational accuracy?
+
+4. What challenge arises when attempting to maintain delicate informational states in experimental processors, and how is it being mitigated?
+
+5. How are cutting-edge machines being used to simulate biological systems for pharmaceutical innovation?
+
+document_3.pdf
+
+1. Which Renaissance technique contributed to the subtle transitions and emotional ambiguity in the subject’s face?
+
+2. What incident in the early 20th century caused the painting’s fame to grow internationally?
+
+3. How does the work reflect the human-centered ideals of the intellectual rebirth period?
+
+4. What is the widely accepted identity of the person depicted, and what is the reason behind the alternative name given to the portrait?
+
+5. Why is the expression in the subject’s face considered open to interpretation by many experts?
+
+document_4.pdf
+
+1. Which beginner-friendly coding language has gained traction in educational curricula due to its human-readable syntax?
+
+2. What open-source tool allows developers to implement numerical simulations and scientific analysis with extensive third-party package support?
+
+3. Identify the programming platform that serves multiple paradigms and is utilized across machine perception, academic instruction, and backend development.
+
+4. Which interpreted language is frequently adopted for automation, data workflows, and artificial intelligence prototyping due to its simplicity and ecosystem?
+
+5. Name the technology whose popularity is reinforced by a global community, abundant documentation, and seamless integration with other programming languages.
+
+
+document_5.pdf
+
+1. Which ancient structure in East Asia relied on smoke and fire to transmit military messages over long distances?
+
+2. What was Emperor Qin Shi Huang’s strategy for defending a unified territory against outside aggression?
+
+3. How did elevation and terrain influence the construction challenges faced by early Chinese engineers?
+
+4. Which imperial dynasty introduced stone and brick upgrades to earlier defenses made of tamped earth?
+
+5. What false belief about a historical landmark's visibility from space has been debunked by astronauts?
+
+
+Randomly shuffle questions:-
+
+10  Which 19th-century metallic structure faced artistic backlash during its initial years despite now being celebrated globally? doc1
+13  What is the widely accepted identity of the person depicted, and what is the reason behind the alternative name given to the portrait? doc3
+14 Which components in the system are responsible for semantic segmentation of document content, and how are their outputs standardized for cross-model compatibility? 1
+16  What was Emperor Qin Shi Huang’s strategy for defending a unified territory against outside aggression? doc5
+18 2. What open-source tool allows developers to implement numerical simulations and scientific analysis with extensive third-party package support? doc4
+20  Which Renaissance technique contributed to the subtle transitions and emotional ambiguity in the subject’s face? doc3
+23  What methods or models are employed to detect non-linear content flows, such as tables or multi-column layouts, in complex page formats? 1
+25  How do novel physical properties in subatomic systems enable massively parallel problem solving in next-generation processors? doc2
+26  What towering creation was initially built to commemorate a major revolution’s centennial through a world exhibition? doc1
+27  Which beginner-friendly coding language has gained traction in educational curricula due to its human-readable syntax? doc4
+29 Which ancient structure in East Asia relied on smoke and fire to transmit military messages over long distances? doc5
+30 What scientific phenomenon allows information units to remain linked across long distances, enhancing computational accuracy? doc2
+
+
+Randomly shuffle questions:-
+
+1. How does the work reflect the human-centered ideals of the intellectual rebirth period? 
+2. Which interpreted language is frequently adopted for automation, data workflows, and artificial intelligence prototyping due to its simplicity and ecosystem? 
+3. Which AI-driven system was designed to interpret layout and structure in digital documents, and how does it differentiate between text blocks and embedded visual components? 
+4. Which imperial dynasty introduced stone and brick upgrades to earlier defenses made of tamped earth? 
+5. What challenge arises when attempting to maintain delicate informational states in experimental processors, and how is it being mitigated? 
+6. Which iron framework, named after an engineer but not designed by him, remained the tallest man-made structure until 1930? 
+7.  What false belief about a historical landmark's visibility from space has been debunked by astronauts? 
+8.  Why is the expression in the subject’s face considered open to interpretation by many experts? 
+9. Describe the modular architecture utilized in the PDF preprocessing pipeline and explain how it supports various downstream document understanding tasks. 1
+10  Which 19th-century metallic structure faced artistic backlash during its initial years despite now being celebrated globally? 
+11 Name the technology whose popularity is reinforced by a global community, abundant documentation, and seamless integration with other programming languages. 
+12  Why might traditional encryption approaches become ineffective due to advancements in non-classical computational models? 
+13  What is the widely accepted identity of the person depicted, and what is the reason behind the alternative name given to the portrait? 
+14 Which components in the system are responsible for semantic segmentation of document content, and how are their outputs standardized for cross-model compatibility? 
+15 How are cutting-edge machines being used to simulate biological systems for pharmaceutical innovation? 
+16  What was Emperor Qin Shi Huang’s strategy for defending a unified territory against outside aggression? 
+17 How does the toolkit handle multilingual documents or diverse encodings, especially when extracting structured data from scanned archives? 
+18 2. What open-source tool allows developers to implement numerical simulations and scientific analysis with extensive third-party package support? 
+19  Identify the architectural landmark that transitioned from controversial eyesore to beloved tourist destination in Europe. 
+20  Which Renaissance technique contributed to the subtle transitions and emotional ambiguity in the subject’s face? 
+21  Which monument, once ridiculed, now captivates millions with nightly luminary displays and city-wide vistas? 
+22 Identify the programming platform that serves multiple paradigms and is utilized across machine perception, academic instruction, and backend development. 
+23  What methods or models are employed to detect non-linear content flows, such as tables or multi-column layouts, in complex page formats? 1
+24 How did elevation and terrain influence the construction challenges faced by early Chinese engineers? 
+25  How do novel physical properties in subatomic systems enable massively parallel problem solving in next-generation processors? 
+26  What towering creation was initially built to commemorate a major revolution’s centennial through a world exhibition? 
+27  Which beginner-friendly coding language has gained traction in educational curricula due to its human-readable syntax? 
+28  What incident in the early 20th century caused the painting’s fame to grow internationally? 
+29 Which ancient structure in East Asia relied on smoke and fire to transmit military messages over long distances? 
+30 What scientific phenomenon allows information units to remain linked across long distances, enhancing computational accuracy? 
+
+
+
+
+
+
+# import json
+# from config.model_list import MODEL_REGISTRY
+# from embeddings.embed_utils import load_model, compute_embedding
+# from mongo.mongo_utils import insert_documents
+# from search.sementic_search import search
+# import os
+
+# # Load sample data
+# with open("output_documents.json") as f:
+#     documents = json.load(f)
+
+# query = "What are qubits and how do they function?"
+
+# os.makedirs("results", exist_ok=True)
+# # Test each model
+# for key, model_name in MODEL_REGISTRY.items():
+#     print(f"\n--- Testing Model: {key} ({model_name}) ---")
+#     tokenizer, model = load_model(model_name)
+
+#     # Embedding function
+#     embed_fn = lambda text: compute_embedding(text, tokenizer, model)
+
+#     # Insert documents
+#     insert_documents(documents, embed_fn)
+#     results = search(query, embed_fn)
+
+#     result_file = f"results/{key}_results.txt"
+#     with open(result_file, "w", encoding="utf-8") as f:
+#         f.write(f"Model: {key} ({model_name})\n")
+#         f.write(f"Query: {query}\n\n")
+#         for text, score in results:
+#             print(f"{score:.4f} | {text}")
+#             f.write(f"{score:.4f} | {text.strip().replace('\n', ' ')}\n")
+
+    # # Search
+    # results = search(query, embed_fn)
+    # for text, score in results:
+    #     print(f"{score:.4f} | {text}")
+    
+https://docs.google.com/document/d/1zJCIF94e9H7AgbbWJSxK7LX74EHLxppRWQO5A_K-he8/edit?usp=sharing
+https://docs.google.com/document/d/1zJCIF94e9H7AgbbWJSxK7LX74EHLxppRWQO5A_K-he8/edit?usp=sharing
+
